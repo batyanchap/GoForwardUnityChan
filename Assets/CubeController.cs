@@ -12,12 +12,10 @@ public class CubeController : MonoBehaviour {
 
 	//音源取得
 	private AudioSource audioSource;
-	public AudioClip audioclip1;
 
 	// Use this for initialization
 	void Start () {
 				audioSource = gameObject.GetComponent<AudioSource>();
-				audioSource.clip = audioclip1;
 	}
 
 	// Update is called once per frame
